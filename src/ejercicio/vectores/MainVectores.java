@@ -34,7 +34,8 @@ public class MainVectores {
 				miVec2[0] = 'Z';
 				
 				System.out.println("Impresión 1:" + miVec2[0]);
-				System.out.println("Impresión 2:" + miVec2[2]);		
+				System.out.println("Impresión 2:" + miVec2[2]);	
+				System.out.println(miVec2);
 		
 				
 	}
