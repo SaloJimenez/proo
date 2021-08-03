@@ -14,7 +14,7 @@ public class MainMatrices {
 		//3. Declarar una matriz miMatriz de tipo long con 2 filas y 4 columnas
 		        long miMatriz[][] = new long[2][4];
 		        
-		//3. Declarar una matriz miMatriz1 de tipo long con 1 fila y 2 columnas y asignar a la posición [0][0] el valor de 8, posición [1][1] el valor de 8, y en la posición [2][2] el valor de 2  
+		//4. Declarar una matriz miMatriz1 de tipo long con 1 fila y 2 columnas y asignar a la posición [0][0] el valor de 8, posición [1][1] el valor de 8, y en la posición [2][2] el valor de 2  
 		        long miMatriz1[][] = new long[1][2];
 		        miMatriz1[0][0]=2;
 		        miMatriz1[1][1]=8;
