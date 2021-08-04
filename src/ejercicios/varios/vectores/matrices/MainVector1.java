@@ -17,7 +17,13 @@ public class MainVector1 {
 		    	 X[i]=n;
 		    	 
 		     }
-		
+		     
+		//Recorriendo el vector lleno
+		     for(int i = 0; i < 3; i++) {
+		    	 System.out.println("El valor de posición: " + i);
+		    	 System.out.println(X[i]);
+		    	 
+		     }
 	}
 
 }
