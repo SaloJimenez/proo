@@ -28,6 +28,7 @@ public class Estudiante implements Comparable<I> {
 	public int compareTo(Integer o) {
 		// TODO Auto-generated method sthub }
 		// Tres posibles retornos: 0 -1 1
+		
 		if (this.numeroLista > o) {
 			return 1;
 		} else if (this.numeroLista == o) {
