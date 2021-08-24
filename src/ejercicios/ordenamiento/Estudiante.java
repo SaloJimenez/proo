@@ -30,7 +30,7 @@ public class Estudiante implements Comparable<I> {
 		// Tres posibles retornos: 0 -1 1
 		if (this.numeroLista > o) {
 			return 1;
-		} else if (thsi.numeroLista == o) {
+		} else if (this.numeroLista == o) {
 			return 0;
 		} else {
 			return -1;
