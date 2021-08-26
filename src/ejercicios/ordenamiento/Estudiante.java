@@ -7,6 +7,7 @@ public class Estudiante implements Comparable<I> {
 
 	public String getNombre() {
 		return nombre;
+		
 	}
 
 	public void setNombre(String nombre) {
@@ -29,9 +30,9 @@ public class Estudiante implements Comparable<I> {
 		// TODO Auto-generated method sthub }
 		// Tres posibles retornos: 0 -1 1
 		
-		if (this.numeroLista > o) {
+		if (this.numeroLista > o.getNumeroLista()) {
 			return 1;
-		} else if (this.numeroLista == o) {
+		} else if (this.numeroLista == o.getNumeroLista()) {
 			return 0;
 		} else {
 			return -1;
