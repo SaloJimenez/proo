@@ -94,7 +94,7 @@ public class MainReservaViajes {
 
 		@Override
 		public String toString() {
-			return "PasAdulto= 
+			return "PasAdulto= " +this.nombre+ " codigoSeguroSocial= " + codigoSeguroSocial + "";
 					
 }
 	}
